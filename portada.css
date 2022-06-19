@@ -1,0 +1,73 @@
+* { margin: 0;
+    background-color: rgb(239, 175, 152);
+}
+
+.titulo{
+    text-shadow:0 1px 0 rgb(233, 113, 113), 0 2px 0 rgb(128, 25, 25), 0 3px 0 rgb(57, 243, 10), 0 4px 0 rgb(91, 20, 223), 0 5px 0 #a7d364, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    text-decoration: dashed;
+    margin: 25px;
+    color: black;
+    font-size: 450%;
+}
+
+.portada{
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+}
+
+.contenedor{ 
+height: 100vh;
+display: flex;
+
+ /* los div internos esten centrados */
+align-items: center;
+}
+
+.VOLVER {
+    margin: 25px;
+    background-color: #2c1055;
+	color: white;
+	text-decoration: none;
+}
+
+.VOLVER:hover{
+    background-color: #223094
+}
+
+.lista{ 
+display: flex;
+overflow: hidden;
+padding: 30px 0;     
+}
+.flor{
+min-width: 300px;
+max-width: 300px;
+height: 200px;
+outline: 2px solid rgb(17, 17, 0);
+cursor: pointer;
+}
+
+img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+img:hover{
+transform: scale(1.2);
+}
+
+footer{
+    color: blue;
+    text-align: center;
+    font-size: 150%;
+    margin: auto;
+}
+
+footer img{
+    display: inline;
+    height: 5%;
+    width: 5%;
+}
